@@ -3,4 +3,8 @@ def divide(a, b):
         return "Error: Cannot divide by zero"
     return a / b
 
-print(divide(10, 0))
+def add(a, b):
+    return a + b
+
+print(divide(10, 2))
+print(add(10, 2))
